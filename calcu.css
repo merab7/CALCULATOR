@@ -1,0 +1,220 @@
+body{
+
+background-color: rgb(86, 96, 105);
+display: flex;
+justify-content: center;
+justify-items: center;
+}
+
+
+.calculator-div{
+display: flex;
+width: 450px;
+height: 500px;
+margin-top: 250px;
+margin-left: 120px;
+background-color: rgb(8, 37, 37);
+justify-content: center;
+border-radius: 16px;
+box-shadow: 1px 3px 5px black;
+position: relative;
+}
+
+.calculator-name{
+display: flex;
+justify-content: center;
+width: 450px;
+height: 30px;
+background-color: rgb(6, 87, 63);
+border-top-right-radius: 16px;
+border-top-left-radius: 16px;
+padding-top: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: rgb(221, 211, 189);
+}
+
+.signsp{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: 300px;
+    color: green;
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;  
+    transition: color 0.15s;
+    width: 50px;
+
+
+}
+
+.signsp:active{
+
+color: aqua;
+
+
+}
+
+
+.signsm{
+
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top:350px;
+    margin-right: 100px;
+    color: green;
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;  
+    transition: color 0.15s;
+    width: 50px;
+    justify-items: center;
+    padding-left: 8px;
+    padding-bottom: 0px;
+}
+.signsm:active{
+
+    color: aqua;
+
+
+
+}
+
+.signsd{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: -100px;
+    color: green;
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;  
+    transition: color 0.15s;
+       width: 50px;
+
+
+}
+
+.signsd:active:active{
+
+    color: aqua;
+
+
+
+}
+
+
+.signsmu{
+
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: -300px;
+    color: green;
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;  
+    transition: color 0.15s;
+       width: 50px;
+
+
+
+}
+
+.signsmu:active:active{
+
+    color: aqua;
+
+
+
+}
+
+.screen{
+ margin-top: 70px;
+ border-radius: 16px;   
+display: flex;
+position: absolute;
+width: 350px;
+height: 150px;
+background-color: rgb(5, 50, 61);
+box-shadow: 2px 1px 5px black;
+
+
+}
+
+.mnish1{
+
+display: flex;
+position: absolute;
+justify-content: center;
+margin-left: 100px;
+width: 40px;
+height: 40px;
+margin-top: 30px;
+border: none;
+border-radius: 8px;
+background-color: rgb(243, 185, 37);
+padding-top: 11px;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.mnish2{
+
+   
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding-top: 11px;
+    margin-left: 200px;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(243, 185, 37);
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+
+
+}
+
+.sum{
+
+
+    display: flex;
+    position: fixed;
+   
+    margin-left: 3px;
+    width: 40px;
+    height: 40px;
+    margin-top: 90px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(243, 185, 37);
+    width: 345px;
+justify-content: start;
+ padding-top: 10px;
+ font-size: medium;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bold;
+}
